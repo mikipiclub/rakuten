@@ -1,0 +1,14 @@
+@charset 'utf-8';
+
+th {
+  padding: 10px;
+  border: 1px solid #aaa;
+}
+td {
+  height: 10vh;
+  overflow: scroll;
+  border: 1px solid #aaa;
+}
+td:first-child {
+  text-align: center;
+}

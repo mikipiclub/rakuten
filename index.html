@@ -6,13 +6,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <button type="button" id="search_button1" value="料理">料理</button>
+  <button type="button" id="search_button1" value="">総合</button>
   <button type="button" id="search_button2" value="健康">健康</button>
   <button type="button" id="search_button3" value="本">本</button>
-  <ul></ul>
+  <table id="result">
+    <tr>
+      <th>順位</th>
+      <th>画像</th>
+      <th>商品名</th>
+      <th>値段</th>
+      <th>内容</th>
+    </tr>
+  </table>
 
   <script
   src="https://code.jquery.com/jquery-3.4.1.min.js"
