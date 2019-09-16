@@ -34,7 +34,7 @@ $(function () {
 
     // リクエストURLを設定する
     $.get('https://app.rakuten.co.jp/services/api/IchibaItem/Ranking/20170628?', {
-      applicationId: "xxxxx""
+      applicationId: "xxxxx"
 
       // 結果が帰ってきたらここでそれを受け取り、空でなければ順番に出力していく
     }, function (data) {
